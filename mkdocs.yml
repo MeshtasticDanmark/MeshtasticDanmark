@@ -1,0 +1,96 @@
+site_name: Meshtastic Danmark
+site_url: https://MeshtasticDanmark.dk
+site_description: En dansk vejledning til opsætning og brug af Meshtastic LoRa mesh-radioer
+site_author: V1ncit
+#language: en
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  palette:
+    - scheme: slate
+      primary: green
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Skift til lyst tema
+    - scheme: default
+      primary: green
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Skift til mørkt tema
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - toc.integrate
+    - header.autohide
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  - awesome-pages
+  - git-revision-date
+#  - social:
+#      cards_color: '#512da8'
+
+nav:
+  - Forside: index.md
+  - Hvad er Meshtastic?: hvad-er-meshtastic.md
+  - Hardware:
+      - Understøttede enheder: hardware/enheder.md
+      - Opsætning af radioer: hardware/opsaetning.md
+  - Software:
+      - Installation: software/installation.md
+      - Webinterface & apps: software/webinterface.md
+  - Netværk:
+      - Mesh-topologi: netvaerk/topologi.md
+      - Konfiguration af noder: netvaerk/konfiguration.md
+      - Brug af MQTT: netvaerk/mqtt.md
+  - Avanceret:
+      - Meshtastic CLI: avanceret/cli.md
+      - Home Assistant: avanceret/homeassistant.md
+      - GPS og sensor-data: avanceret/gps-sensor.md
+  - Sikkerhed: sikkerhed.md
+  - Ressourcer: ressourcer.md
+  - FAQ: faq.md
+  - Om: om.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/meshtastic
+    - icon: fontawesome/brands/discord
+      link: https://meshtastic.org
+    - icon: fontawesome/solid/globe
+      link: https://meshtastic.org
+
+# Brug assets/ til at placere favicon.svg, logo.svg, osv.
