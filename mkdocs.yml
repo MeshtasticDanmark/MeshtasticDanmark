@@ -65,6 +65,7 @@ plugins:
 nav:
   - Forside: index.md
   - Hvad er Meshtastic?: hvad-er-meshtastic.md
+  - Hvad er LoRa?: lora.md
   - Hardware:
       - Understøttede enheder: hardware/enheder.md
       - Opsætning af radioer: hardware/opsaetning.md
