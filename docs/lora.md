@@ -18,6 +18,12 @@
 
 ---
 
+## Særligt om frekvenser
+Her i danmark bruger vi langt oftest 868 MHz. 869.525 MHz for at være præcis, og det er der en god grund til.  
+Med 433 MHz er vi begrænset til 10 mW sendestyrke og en duty-cycle på 10%. Ved 868 MHz er vi begrænset til 25mW og 0.1% duty-cycle.  
+Mellem 869.4-869.65 MHz kan vi få lov at sende med 500 mW, og med en duty-cycle på 10%.  
+Læs mere om frekvenserne her: [https://docdb.cept.org/download/4635](https://docdb.cept.org/download/4635)
+
 ## 🧠 Hvordan fungerer LoRa?
 
 LoRa bruger **chirp spread spectrum** i stedet for klassisk digital modulation. Dette gør signalet mere robust og i stand til at nå længere – selv ved lav signalstyrke.

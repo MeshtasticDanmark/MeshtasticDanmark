@@ -11,3 +11,13 @@ Meshtastic bruger en trådløs mesh-topologi, hvor hver node fungerer eller KAN 
 ## Hop og rækkevidde
 
 - Typisk op til 5–10 km per hop (afhængig af terræn og antenne)
+
+# Meshtastic netværkskort
+
+<iframe
+  src="https://meshtastic.dk/kort/"
+  width="100%"
+  height="600"
+  style="border:1px solid #ccc;"
+  loading="lazy">
+</iframe>

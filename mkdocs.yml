@@ -69,6 +69,7 @@ nav:
   - Hardware:
       - Understøttede enheder: hardware/enheder.md
       - Opsætning af radioer: hardware/opsaetning.md
+      - Cases: hardware/cases.md
   - Software:
       - Installation: software/installation.md
       - Webinterface & apps: software/webinterface.md
